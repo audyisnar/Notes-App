@@ -1,0 +1,27 @@
+.note-detail {
+    padding: 20px 30px;
+    margin: 35px 0;
+    background: white;
+    width: 70%;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.note-detail__title{
+    margin-bottom: 17px;
+    color: black;
+}
+
+.note-detail__createdAt {
+    margin-bottom: 8px;
+    color: #52595D;
+}
+
+.note-detail__content{
+    color: black;
+}
+
+.detailPage {
+    display: flex;
+    justify-content: center;
+}

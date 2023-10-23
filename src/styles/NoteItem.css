@@ -1,0 +1,45 @@
+.note-item {
+    padding: 20px 30px;
+    background: white;
+    opacity: 0.9;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    transition: all 0.2s ease;
+}
+
+.note-item:hover{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    transform: scale(1.1);
+}
+
+.note-item__delete {
+    margin: 20px 10px 5px 0;
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+    background: #FF4148;
+    opacity: 0.9;
+    color: white;
+    border-radius: 15px;
+    letter-spacing: 1px;
+}
+
+.note-item__archives{
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+    background: #FFB32B;
+    color: white;
+    border-radius: 15px;
+    letter-spacing: 1px;
+}
+
+.note-item__restore {
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+    background: #6CBA53;
+    color: white;
+    border-radius: 15px;
+    letter-spacing: 1px;
+}

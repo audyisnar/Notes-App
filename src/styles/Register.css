@@ -1,0 +1,63 @@
+[data-theme='dark'] .input-form button {
+    background: #353A40;
+}
+
+[data-theme='dark'] .input-form button:hover {
+    background: #353A40;
+}
+
+.container-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-input h2 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.container-input p {
+    text-align: center;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 15px 0;
+}
+
+.input-form input {
+    height: 25px;
+    padding-left: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+#name, #email, #password {
+    margin-bottom: 10px;
+}
+
+.input-form button {
+    margin-top: 10px;
+    height: 30px;
+    background: #0093FC;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.input-form button:hover {
+    background: #128AE7;
+}
+
+@media screen and (max-width: 900px) {
+    .input-form {
+        width: 60%;
+    }
+}

@@ -1,0 +1,40 @@
+[data-theme='dark'] {
+  background-color: #D4D4D4;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app-container{
+  height: 643px;
+}
+
+.text-link {
+  text-decoration: none;
+}
+
+.title-note{
+  margin: 2rem;
+}
+
+.page-not-found {
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-not-found h6 {
+  font-size: 60px;
+}
+
+.page-not-found p {
+  font-size: 25px;
+}
+
+.desc {
+  margin: 2rem;
+}

@@ -1,0 +1,28 @@
+[data-theme='dark'] .search-bar button {
+    background: #353A40;
+}
+
+.search-bar {
+    margin: 2rem;
+}
+
+.search-bar input {
+    width: 300px;
+    height: 30px;
+    padding-left: 20px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.search-bar button {
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    background: #0093FC;
+    color: white;
+    border-radius: 20px;
+}
+
+@media (max-width: 800px) {
+    .search-bar input { width: 250px; }
+}

@@ -1,0 +1,13 @@
+.note-item__title{
+    margin-bottom: 17px;
+    color: black;
+}
+
+.note-item__createdAt {
+    margin-bottom: 8px;
+    color: #52595D;
+}
+
+.note-item__content{
+    color: black;
+}

@@ -1,0 +1,62 @@
+[data-theme='dark'] .navigation {
+    background: #353A40;
+}
+
+.navigation {
+    background: #0093FC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 50px;
+}
+
+.navigation h1 {
+    color: white;
+    margin-right: 15px;
+}
+
+.navigation ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.navigation ul li a {
+    font-size: 20px;
+    color: white;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn .btn-rightPosition {
+    display: flex;
+}
+
+.btn .btn-rightPosition .toggleTheme {
+    margin-right: 45px;
+}
+
+.btn-toggle {
+    display: flex;
+    //justify-content: end;
+}
+
+.btn-toggle .toggle {
+    margin-right: 20px;
+}
+
+.navigation button {
+    background-color: transparent;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    border: 0;
+    font-size: 22px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
